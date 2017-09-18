@@ -30,8 +30,7 @@ public class DrawActivity extends AppCompatActivity {
             public void onCheckedChanged(RadioGroup group, @IdRes int checkedId) { // 그룹안에 있는 아이디를 찾아오게 하는 파라미터
                 switch (checkedId){// 인자값으로 넘어온 값을 통해 구분 가능
                     case R.id.radioButton_black:
-                      draw = new DrawView(DrawActivity.this);
-                        stage.addView(draw);
+
                         draw.setColor(Color.BLACK);
                         break;
                     case R.id.radioButton_cyan:
