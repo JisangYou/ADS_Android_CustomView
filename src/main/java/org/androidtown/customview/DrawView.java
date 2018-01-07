@@ -18,7 +18,7 @@ import java.util.List;
 public class DrawView extends View {
     Paint paint;
     Path currentPath;
-
+    PathTool tool;
     List<PathTool> paths = new ArrayList<>();
 
     // 그림이 그려지는 좌표
@@ -47,7 +47,7 @@ public class DrawView extends View {
 
     public void setColor(int color) {
 
-        PathTool tool = new PathTool();
+        tool = new PathTool();
         tool.setColor(color);
         currentPath = tool;
         paths.add(tool);

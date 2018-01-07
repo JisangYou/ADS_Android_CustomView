@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity  {
         CustomView cv= new CustomView(this); // 커스텀뷰 객체 생성
         cv.setX(300); //생성한 곳의 위치값을 지정
         cv.setY(300); // 위치값 지정
-        stage.addView(cv); // 추가
+        stage.addView(cv); // 추가z
 
 
         findViewById(R.id.button1).setOnClickListener(new View.OnClickListener() {

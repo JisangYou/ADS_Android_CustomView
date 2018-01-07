@@ -8,8 +8,8 @@
 
     <FrameLayout
         android:id="@+id/stage"
-        android:layout_width="366dp"
-        android:layout_height="445dp"
+        android:layout_width="357dp"
+        android:layout_height="393dp"
         android:layout_marginBottom="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
@@ -39,11 +39,12 @@
         android:id="@+id/radioColor"
         android:layout_width="252dp"
         android:layout_height="39dp"
-        android:layout_marginBottom="16dp"
+        android:layout_marginBottom="10dp"
         android:checkedButton="@+id/radioButton_black"
         android:orientation="horizontal"
         app:layout_constraintBottom_toBottomOf="parent"
-        tools:layout_editor_absoluteX="-17dp">
+        android:layout_marginLeft="25dp"
+        app:layout_constraintLeft_toLeftOf="parent">
 
         <RadioButton
             android:id="@+id/radioButton_cyan"
@@ -74,4 +75,16 @@
             android:checked="false"
             android:text="black" />
     </RadioGroup>
+
+    <SeekBar
+        android:id="@+id/seekBar"
+        android:layout_width="match_parent"
+        android:layout_height="27dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/radioColor"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/stage"
+        app:layout_constraintVertical_bias="0.846" />
 </android.support.constraint.ConstraintLayout>
