@@ -7,7 +7,7 @@
 
 ## Code Review
 
-1. MainActivity
+### MainActivity
 
 ```Java
 public class MainActivity extends AppCompatActivity  {
@@ -48,7 +48,7 @@ public class MainActivity extends AppCompatActivity  {
 ```
 - 메인에 커스텀 뷰 생성
 --------------------------------------------------------------------------------------------------------------
-- 메인 xml
+### 메인 xml
 
 ```Java
 <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
@@ -106,7 +106,7 @@ public class MainActivity extends AppCompatActivity  {
 </android.support.constraint.ConstraintLayout>
 ```
 
-2. CustomView 
+### CustomView 
 
 ```Java
 public class CustomView extends View {
@@ -150,7 +150,7 @@ public class CustomView extends View {
         stage.addView(cv); // 추가z
 ```
 
-3. AniButton
+### AniButton
 
 ```Java
 public class AniButton extends AppCompatButton implements View.OnTouchListener {// 리소스에서 만든 Button을 상속받음.
@@ -238,7 +238,7 @@ public class AniButton extends AppCompatButton implements View.OnTouchListener {
 }
 ```
 
-4. drawActivity
+### drawActivity
 
 ```Java
 public class DrawActivity extends AppCompatActivity {
@@ -287,7 +287,7 @@ public class DrawActivity extends AppCompatActivity {
 }
 ```
 
-5. drawView,PathTool
+### drawView,PathTool
 
 ```Java
 public class DrawView extends View {
