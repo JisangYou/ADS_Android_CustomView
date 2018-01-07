@@ -47,8 +47,8 @@ public class MainActivity extends AppCompatActivity  {
 }
 ```
 - 메인에 커스텀 뷰 생성
-
-+ 메인 xml
+--------------------------------------------------------------------------------------------------------------
+- 메인 xml
 
 ```Java
 <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
@@ -504,13 +504,13 @@ Draw 과정은 invalidate() 메서드에 의해서 시작된다.
 ```
 
 
-####출처: http://blog.burt.pe.kr/%EC%95%88%EB%93%9C%EB%A1%9C%EC%9D%B4%EB%93%9C-%EC%BB%A4%EC%8A%A4%ED%85%80%EB%B7%B0-%EC%9D%B4%ED%95%B4%ED%95%98%EA%B8%B0/
-####출처: http://bitsoul.tistory.com/59?category=623707 [Happy Programmer~]
+#### 출처: http://blog.burt.pe.kr/%EC%95%88%EB%93%9C%EB%A1%9C%EC%9D%B4%EB%93%9C-%EC%BB%A4%EC%8A%A4%ED%85%80%EB%B7%B0-%EC%9D%B4%ED%95%B4%ED%95%98%EA%B8%B0/
+#### 출처: http://bitsoul.tistory.com/59?category=623707 [Happy Programmer~]
 
 ## TODO
 
-- 커스텀뷰 복습
-- 손으로 그릴 수 있는 그림판 기능 추가하기(글씨 굵게하기)
+- CustomView 복습 및 테스트
+- 기능 추가하기(글씨 굵게하기)
 
 ## Retrospect
 
